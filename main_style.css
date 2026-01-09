@@ -38,7 +38,7 @@ nav div {
 }
 .banner_section {
   background-color: burlywood;
-  max-width: 1400;
+  max-width: auto;
   max-height: 600px;
 }
 #banner_container {
@@ -138,7 +138,7 @@ nav div {
 .Ali_card p {
   font-size: 20px;
 }
-.knowlege_section {
+.knowledge_section {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -167,6 +167,9 @@ nav div {
 }
 
 .doubt_clear_btn {
+  display: flex;
+  align-items: center;
+  justify-items: center;
   background-color: rgb(24, 131, 37);
   color: #ffffff;
   border: none;
@@ -174,6 +177,10 @@ nav div {
   width: 170px;
   height: 40px;
   margin: 20px 0px;
+  padding-left: 23px;
+}
+#doubt_clear_btn_img_style{
+  display: inline-block;
 }
 .doubt_clear_btn:hover {
   background-color: rgb(96, 94, 90);
