@@ -45,12 +45,12 @@ nav div {
   background-image: url("assets/hero-bg.png");
   width: auto;
   max-height: 200px;
-  padding: 50px 120px 180px 300px;
+  padding: 50px 120px 180px 280px;
   display: flex;
   text-align: center;
 }
 .banner_text_area {
-  padding: 50px 120px 180px 210px;
+  padding: 50px 120px 180px 200px;
   text-align: center;
 }
 
