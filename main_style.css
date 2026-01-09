@@ -37,12 +37,12 @@ nav div {
   background-image: url("assets/hero-bg.png");
   width: 1300px;
   max-height: 200px;
-  padding: 50px 120px 180px 310px;
+padding: 50px 120px 180px 300px;
   display: flex;
   text-align: center;
 }
 .banner_text_area {
-  padding: 50px 120px 180px 310px;
+  padding: 50px 120px 180px 300px;
 }
 
 #banner_btn {
@@ -87,54 +87,74 @@ nav div {
   background-color: rgb(96, 94, 90);
   cursor: pointer;
 }
-.Ali_card{
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 120px;
+.Ali_card {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 120px;
 }
-.card{
-    width:300px;
-    height: 200px;
-    margin-bottom: 5px;
-    text-align: center;
-    
+.card {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 5px;
+  text-align: center;
 }
-.card_circle{
-    background-color: rgb(165, 60, 60);
-    border: none;
-    width: 60px;
-    height: 60px;
-    border-radius: 80px;
-    margin: 10px;
+.card_circle {
+  background-color: rgb(165, 60, 60);
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 80px;
+  margin: 10px;
 }
-.Ali_card h3{
-    font-size: 28px;
-    font-weight: bold;
-    
+.Ali_card h3 {
+  font-size: 28px;
+  font-weight: bold;
 }
-.Ali_card p{
- font-size: 20px;
+.Ali_card p {
+  font-size: 20px;
 }
-.knowlege_section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+.knowlege_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.Knowledge_h1{
-     padding: 20px 0px;
-font-weight: bold;
-font-size: 40px;
-
+.Knowledge_h1 {
+  padding: 20px 0px;
+  font-weight: bold;
+  font-size: 40px;
 }
-.Knowledge_p{
-padding-bottom: 20px;
-font-weight: bold;
-font-size: 15px;
+.Knowledge_p {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.knowledge_list{
-    padding: 5px 0px;
-    list-style-type: none;
+.knowledge_list {
+  padding: 5px 0px;
+  list-style-type: none;
+}
+.doubt_clear_section{
+  text-align: center;
+}
+.doubt_clear_btn{
+  background-color: rgb(24, 131, 37);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 170px;
+  height: 40px;
+  margin: 20px 0px;
+}
+.doubt_clear_btn:hover{
+ background-color: rgb(96, 94, 90);
+  cursor: pointer;
+}
+.doubt_clear_section div h2{
+padding: 40px 0px 15px 0px;
+font-size: 35px;
+}
+.doubt_clear_section p{
+font-size: 20px;
+font-weight: 500;
 }
