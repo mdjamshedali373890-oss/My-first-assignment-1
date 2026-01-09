@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
 }
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
 nav {
   background-color: #ffffff;
   width: 71%;
@@ -14,6 +18,10 @@ nav {
 nav div {
   display: flex;
   gap: 20px;
+}
+.nav_h4_style:hover {
+  background-color: rgb(196, 163, 99);
+  cursor: pointer;
 }
 #nav_btn {
   background-color: blue;
@@ -42,6 +50,7 @@ nav div {
   text-align: center;
 }
 .banner_text_area {
+  padding: 50px 120px 180px 230px;
   text-align: center;
 }
 
@@ -62,14 +71,27 @@ nav div {
   font-size: small;
   color: #ffffff;
 }
+.btn_div {
+  display: flex;
+  align-items: center;
+}
 .btn_vault {
+  display: flex;
+  align-items: center;
   background-color: rgb(70, 70, 202);
   color: #ffffff;
   border: none;
   border-radius: 5px;
   width: 200px;
-  height: 25px;
+  height: 55px;
   margin-right: 10px;
+  text-align: center;
+  padding-left: 20px;
+}
+.btn_vault_arrow {
+  width: 15px;
+  height: 15px;
+  padding: 0px 5px;
 }
 .btn_vault:hover {
   background-color: rgb(96, 94, 90);
@@ -81,7 +103,10 @@ nav div {
   border: none;
   border-radius: 5px;
   width: 170px;
-  height: 25px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
 }
 .btn_see_work:hover {
   background-color: rgb(96, 94, 90);
@@ -93,8 +118,8 @@ nav div {
   padding: 40px 120px;
 }
 .card {
-  width: 300px;
-  height: 200px;
+  width: 280px;
+  height: 250px;
   margin-bottom: 5px;
   text-align: center;
 }
@@ -138,7 +163,9 @@ nav div {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 80px;
+  align-items: center;
 }
+
 .doubt_clear_btn {
   background-color: rgb(24, 131, 37);
   color: #ffffff;

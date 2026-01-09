@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Assignment Work</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./main_style.css" />
   </head>
   <body>
@@ -13,16 +21,23 @@
 
         <div></div>
         <div>
-          <h4>Features</h4>
-          <h4>How It Works</h4>
-          <h4>Why It's Different</h4>
+          <h4 class="nav_h4_style">Features</h4>
+          <h4 class="nav_h4_style">How It Works</h4>
+          <h4 class="nav_h4_style">Why It's Different</h4>
         </div>
         <div></div>
         <button id="nav_btn">Get Early Access</button>
       </nav>
       <section id="banner_container">
         <div class="banner_text_area">
-          <button id="banner_btn">Early Access Now Open</button>
+          <button id="banner_btn">
+            <img
+              style="width: 10px; height: 10px; padding-right: 5px"
+              src="assets/dot.png"
+              alt="dot"
+            />
+            Early Access Now Open
+          </button>
           <h1>
             <span style="color: #ffffff">Structured Thinking,</span> <br />
             <span style="color: #33cb00">Tot Just Note-Taking.</span>
@@ -34,9 +49,24 @@
               connect ideas, and turn learning into long-term knowledge.
             </p>
           </div>
-          <div>
-            <button class="btn_vault">Start Building Your Vault</button>
-            <button class="btn_see_work">See How It Works</button>
+          <div class="btn_div">
+            <button class="btn_vault">
+              Start Building Your Vault
+              <img
+                class="btn_vault_arrow"
+                src="assets/ArrowRight.png"
+                alt="Arrow Right"
+              />
+            </button>
+
+            <button class="btn_see_work">
+              <img
+                class="btn_vault_arrow"
+                src="assets/play.png"
+                alt="Arrow Right"
+              />
+              See How It Works
+            </button>
           </div>
         </div>
       </section>
@@ -123,7 +153,15 @@
             Join thousands of learners who are building their personal knowledge
             vaults <br />.Start free, no credit card required.
           </p>
-          <button class="doubt_clear_btn">Get Early Access</button>
+
+          <button class="doubt_clear_btn">
+            Get Early Access
+            <img
+              class="btn_vault_arrow"
+              src="assets/ArrowRight.png"
+              alt="Arrow Right"
+            />
+          </button>
         </div>
         <p>Free during early access • No credit card needed</p>
       </section>
