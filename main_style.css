@@ -35,14 +35,14 @@ nav div {
 }
 #banner_container {
   background-image: url("assets/hero-bg.png");
-  width: 1300px;
+  width: auto;
   max-height: 200px;
-padding: 50px 120px 180px 300px;
+  padding: 50px 120px 180px 300px;
   display: flex;
   text-align: center;
 }
 .banner_text_area {
-  padding: 50px 120px 180px 300px;
+  text-align: center;
 }
 
 #banner_btn {
@@ -134,10 +134,12 @@ padding: 50px 120px 180px 300px;
   padding: 5px 0px;
   list-style-type: none;
 }
-.doubt_clear_section{
+.doubt_clear_section {
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
-.doubt_clear_btn{
+.doubt_clear_btn {
   background-color: rgb(24, 131, 37);
   color: #ffffff;
   border: none;
@@ -146,15 +148,35 @@ padding: 50px 120px 180px 300px;
   height: 40px;
   margin: 20px 0px;
 }
-.doubt_clear_btn:hover{
- background-color: rgb(96, 94, 90);
+.doubt_clear_btn:hover {
+  background-color: rgb(96, 94, 90);
   cursor: pointer;
 }
-.doubt_clear_section div h2{
-padding: 40px 0px 15px 0px;
-font-size: 35px;
+.doubt_clear_section div h2 {
+  padding: 40px 0px 15px 0px;
+  font-size: 35px;
 }
-.doubt_clear_section p{
-font-size: 20px;
-font-weight: 500;
+.doubt_clear_section p {
+  font-size: 20px;
+  font-weight: 500;
+}
+footer {
+  height: 300px;
+  background-color: #47506e;
+}
+.footer_img {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  padding: 20px 15px 0px 0px;
+}
+.footer_img_h4 {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 100px 120px;
+}
+.footer_p {
+  color: #ffffff;
+  text-align: center;
 }
